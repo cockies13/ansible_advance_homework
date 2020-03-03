@@ -16,9 +16,6 @@
 - name: Clearing yum cache
   command: yum clean all
 
-#- name: setup hostname
-#  hostname:
-#    name: "{{ inventory_hostname }}"
  
 - name: install base tools and packages
   yum:
